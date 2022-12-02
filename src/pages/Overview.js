@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import BeerItems from "../components/BeerItems";
-
+import "./Overview.css";
 const Overview = () => {
   const [beers, setBeers] = useState([]);
   const showBeers = () => {
@@ -14,7 +14,7 @@ const Overview = () => {
     <section className="grid">
       {beers.map((beer) => (
         <BeerItems
-          key={beer.id}
+          id={beer.id}
           image_url={beer.image_url}
           name={beer.name}
           tagline={beer.tagline}

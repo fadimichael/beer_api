@@ -14,9 +14,10 @@ const Overview = () => {
     return (
         <div>
             <section className="grid">
-                {beers.map((beer) => (
+                {beers.map((beer, index) => (
                     <BeerItems
-                        id={beer.id}
+                        key={index}
+                        id={beer._id}
                         image_url={beer.image_url}
                         name={beer.name}
                         tagline={beer.tagline}

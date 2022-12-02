@@ -1,0 +1,58 @@
+@font-face {
+  font-family: roboto-slab;
+  src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+  font-weight: 100 900;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.flex-item {
+  font-family: roboto-slab;
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 80px;
+  border-bottom: 3px solid #333333;
+}
+
+.left img {
+  width: 200px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.right h2 {
+  color: #333333;
+  padding-top: 30px;
+  font-size: 70px;
+  font-weight: 500;
+
+}
+
+.right h3 {
+  color: #FFCA41;
+  font-size: 50px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.right p {
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+.right a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  background-color: #FFCA41;
+  border-radius: 30px;
+  padding: 5px 60px;
+}
